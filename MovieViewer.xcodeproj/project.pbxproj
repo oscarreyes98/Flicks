@@ -14,6 +14,7 @@
 		F09E69211E49A924008C9BDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05481FB1E41847100C83F07 /* AppDelegate.swift */; };
 		F09E69231E49A949008C9BDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F05482021E41847100C83F07 /* Assets.xcassets */; };
 		F09E69241E49A97D008C9BDD /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F054820D1E4184B800C83F07 /* MoviesViewController.swift */; };
+		F0E1CD0E1E4AD68F00575B89 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E1CD0D1E4AD68F00575B89 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		F05482071E41847100C83F07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F054820D1E4184B800C83F07 /* MoviesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 		F05482101E41A14E00C83F07 /* MovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		F0E1CD0D1E4AD68F00575B89 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				F054820D1E4184B800C83F07 /* MoviesViewController.swift */,
+				F0E1CD0D1E4AD68F00575B89 /* DetailViewController.swift */,
 			);
 			name = "view controllers";
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 				F09E69211E49A924008C9BDD /* AppDelegate.swift in Sources */,
 				F05482111E41A14E00C83F07 /* MovieCell.swift in Sources */,
 				F09E69241E49A97D008C9BDD /* MoviesViewController.swift in Sources */,
+				F0E1CD0E1E4AD68F00575B89 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
